@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice scientifique</title>
+    <link rel="stylesheet" href="maCalculatrice.css">
+    <script src="maCalculatrice.js"></script>
+</head>
+<body>
+    <div class="calculator">
+    <input type="text" class="screen" id="screen" readonly>
+    <button class="scientific"><a href="maCalculatrice.html">scientific</a></button>
+    <div class="buttons">
+      <button onclick="press('7')">7</button>
+      <button  onclick="press('8')">8</button>
+      <button  onclick="press('9')">9</button>
+      <button  onclick="press('/')">/</button>
+      <button  onclick="press('4')">4</button>
+      <button  onclick="press('5')">5</button>
+      <button  onclick="press('6')">6</button>
+      <button  onclick="press('*')">*</button>
+      <button  onclick="press('1')">1</button>
+      <button  onclick="press('2')">2</button>
+      <button  onclick="press('3')">3</button>
+      <button  onclick="calcSin(curre)">Sin</button>
+      <button  onclick="">Cos</button>
+      <button  onclick="">Tan</button>
+      <button  onclick="">Exp</button>
+      <button  onclick="">\/~</button>
+      <button  onclick="">Log</button>
+      <button  onclick="press('-')">-</button>
+      <button  onclick="press('0')">0</button>
+      <button  onclick="press('+')">+</button>
+      <button onclick="calculate()" class="egal">=</button>
+      <button  onclick="deleteLast()" class="del">Del</button>
+      <button  onclick="clearString()" class="clean">Ac</button>
+  </div>
+</body>
+</html>
